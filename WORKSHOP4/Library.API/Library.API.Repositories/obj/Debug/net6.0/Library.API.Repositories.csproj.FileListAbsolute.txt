@@ -1,0 +1,17 @@
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Repositories\bin\Debug\net6.0\Library.API.Repositories.deps.json
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Repositories\bin\Debug\net6.0\Library.API.Repositories.dll
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Repositories\bin\Debug\net6.0\Library.API.Repositories.pdb
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Repositories\obj\Debug\net6.0\Library.API.Repositories.csproj.AssemblyReference.cache
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Repositories\obj\Debug\net6.0\Library.API.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Repositories\obj\Debug\net6.0\Library.API.Repositories.AssemblyInfoInputs.cache
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Repositories\obj\Debug\net6.0\Library.API.Repositories.AssemblyInfo.cs
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Repositories\obj\Debug\net6.0\Library.API.Repositories.csproj.CoreCompileInputs.cache
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Repositories\obj\Debug\net6.0\Library.API.Repositories.dll
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Repositories\obj\Debug\net6.0\refint\Library.API.Repositories.dll
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Repositories\obj\Debug\net6.0\Library.API.Repositories.pdb
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Repositories\obj\Debug\net6.0\ref\Library.API.Repositories.dll
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Repositories\bin\Debug\net6.0\Library.API.Data.Abstraction.dll
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Repositories\bin\Debug\net6.0\Library.API.Domain.dll
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Repositories\bin\Debug\net6.0\Library.API.Data.Abstraction.pdb
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Repositories\bin\Debug\net6.0\Library.API.Domain.pdb
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Repositories\obj\Debug\net6.0\Library.API.Repositories.csproj.CopyComplete

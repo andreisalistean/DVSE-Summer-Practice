@@ -1,0 +1,5 @@
+SELENIUM WEBDRIVER
+
+regression testing - testarea tuturor partilor care ar putea fi afectate de o anumita schimbare, bug fix
+ 
+xpath, perimte navigarea, parcurgerea elementelor dintr.o pagina web chiar daca este scrisa in html

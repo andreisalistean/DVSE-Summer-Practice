@@ -1,0 +1,71 @@
+.header {
+  height: 3em;
+  box-shadow: rgb(20 35 85 / 15%) 0px 2px 6px 0;
+  position: sticky;
+  left: 0;
+  top: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.headerContent { 
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+<div class ="about_me">
+            <h1>About me</h1>
+            <p>
+                Introdu vrajeala
+            </p>
+            <h1>My Career</h1>
+            <p>
+                Alta vrajeala despre cariera
+            </p>
+        </div>
+        <hr>
+        <div class="career">
+            <h1>How I can be useful for your company</h1>
+            <table>
+                <tr width="200" align="center">
+                    <td>Skill 1</td>
+                    <td>Skill 2</td>
+                    <td>Skill 3</td>
+                    <td>Skill 4</td>
+                </tr>
+                <tr width="200" align="center">
+                    <td>about skill 1</td>
+                    <td>about skill 2</td>
+                    <td>about skill 3</td>
+                    <td>about skill 4</td>
+                </tr>
+            </table>
+        </div>
+        <div class="contact">
+            <h1>Contact</h1>
+            <p>Phone: 0749455867</p><br>
+            <a href="mailto: andrei.salistean21@gmail.com">Email: andrei.salistean21@gmail.com</a>
+
+        </div>
+
+
+
+
+
+<div class="social">
+            <a href="facebook.html" target="_blank" title="Facebook"><img src="./images/facebook.png"></a>
+            <a hef ="linkedin.html" target="_blank" title="Linkedin"><img src="./Images/linkedin.png"></a>
+            <a href="https://www.instagram.com/andreisalistean/" target="_blank" title="Instagram"><img src="./Images/instagram.png"></a>
+            <a href="https://github.com/andreisalistean" target="_blank" title="Github"><img src="./Images/github.png"></a>
+        </div>
+
+
+ 

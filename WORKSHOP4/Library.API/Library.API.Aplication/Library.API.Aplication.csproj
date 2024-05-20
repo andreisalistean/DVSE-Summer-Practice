@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.5.2" />
+    <PackageReference Include="MediatR" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Library.API.Data.Abstraction\Library.API.Data.Abstraction.csproj" />
+    <ProjectReference Include="..\Library.API.Data.MongoDB\Library.API.Data.MongoDB.csproj" />
+    <ProjectReference Include="..\Library.API.Domain\Library.API.Domain.csproj" />
+    <ProjectReference Include="..\Library.API.Repositories\Library.API.Repositories.csproj" />
+    <ProjectReference Include="..\Library.API.Tests\Library.API.Tests.csproj" />
+  </ItemGroup>
+
+</Project>

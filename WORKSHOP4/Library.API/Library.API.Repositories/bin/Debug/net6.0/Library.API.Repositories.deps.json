@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Library.API.Repositories/1.0.0": {
+        "dependencies": {
+          "Library.API.Data.Abstraction": "1.0.0",
+          "Library.API.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Library.API.Repositories.dll": {}
+        }
+      },
+      "Library.API.Data.Abstraction/1.0.0": {
+        "runtime": {
+          "Library.API.Data.Abstraction.dll": {}
+        }
+      },
+      "Library.API.Domain/1.0.0": {
+        "runtime": {
+          "Library.API.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Library.API.Repositories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Library.API.Data.Abstraction/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Library.API.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

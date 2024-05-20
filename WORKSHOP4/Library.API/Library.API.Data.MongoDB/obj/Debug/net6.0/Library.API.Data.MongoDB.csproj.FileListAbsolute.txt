@@ -1,0 +1,15 @@
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Data.MongoDB\bin\Debug\net6.0\Library.API.Data.MongoDB.deps.json
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Data.MongoDB\bin\Debug\net6.0\Library.API.Data.MongoDB.dll
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Data.MongoDB\bin\Debug\net6.0\Library.API.Data.MongoDB.pdb
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Data.MongoDB\obj\Debug\net6.0\Library.API.Data.MongoDB.csproj.AssemblyReference.cache
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Data.MongoDB\obj\Debug\net6.0\Library.API.Data.MongoDB.GeneratedMSBuildEditorConfig.editorconfig
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Data.MongoDB\obj\Debug\net6.0\Library.API.Data.MongoDB.AssemblyInfoInputs.cache
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Data.MongoDB\obj\Debug\net6.0\Library.API.Data.MongoDB.AssemblyInfo.cs
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Data.MongoDB\obj\Debug\net6.0\Library.API.Data.MongoDB.csproj.CoreCompileInputs.cache
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Data.MongoDB\obj\Debug\net6.0\Library.API.Data.MongoDB.dll
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Data.MongoDB\obj\Debug\net6.0\refint\Library.API.Data.MongoDB.dll
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Data.MongoDB\obj\Debug\net6.0\Library.API.Data.MongoDB.pdb
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Data.MongoDB\obj\Debug\net6.0\ref\Library.API.Data.MongoDB.dll
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Data.MongoDB\bin\Debug\net6.0\Library.API.Data.Abstraction.dll
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Data.MongoDB\bin\Debug\net6.0\Library.API.Data.Abstraction.pdb
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Data.MongoDB\obj\Debug\net6.0\Library.API.Data.MongoDB.csproj.CopyComplete

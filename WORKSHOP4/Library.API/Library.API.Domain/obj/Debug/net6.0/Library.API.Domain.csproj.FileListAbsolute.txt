@@ -1,0 +1,12 @@
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Domain\bin\Debug\net6.0\Library.API.Domain.deps.json
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Domain\bin\Debug\net6.0\Library.API.Domain.dll
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Domain\bin\Debug\net6.0\Library.API.Domain.pdb
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Domain\obj\Debug\net6.0\Library.API.Domain.csproj.AssemblyReference.cache
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Domain\obj\Debug\net6.0\Library.API.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Domain\obj\Debug\net6.0\Library.API.Domain.AssemblyInfoInputs.cache
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Domain\obj\Debug\net6.0\Library.API.Domain.AssemblyInfo.cs
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Domain\obj\Debug\net6.0\Library.API.Domain.csproj.CoreCompileInputs.cache
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Domain\obj\Debug\net6.0\Library.API.Domain.dll
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Domain\obj\Debug\net6.0\refint\Library.API.Domain.dll
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Domain\obj\Debug\net6.0\Library.API.Domain.pdb
+E:\Practica DVSE\WORKSHOP4\Library.API\Library.API.Domain\obj\Debug\net6.0\ref\Library.API.Domain.dll

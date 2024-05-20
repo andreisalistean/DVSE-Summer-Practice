@@ -1,0 +1,6 @@
+HOMEWORK 1
+
+fetch vs pull
+merge
+rebase
+stash

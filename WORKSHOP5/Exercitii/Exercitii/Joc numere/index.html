@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Number guessing game</title>
+
+    <style>
+        html {
+            font-family: sans-serif;
+        }
+
+        body {
+            width: 50%;
+            max-width: 800px;
+            min-width: 480px;
+            margin: 0 auto;
+        }
+
+        .form input[type="number"] {
+            width: 200px;
+        }
+
+        .resultMessage {
+            color: white;
+            padding: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Number guessing game</h1>
+
+    <p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you
+        if your guess was too high or too low.</p>
+
+    <div class="form">
+        <label for="guessField">Enter a guess: </label>
+        <input type="number" min="1" max="100" required id="guessField" class="guessField">
+        <input type="submit" value="Submit guess" class="guessSubmit">
+        <input type="submit" value="Reset game" class="resetGame">
+    </div>
+
+    <div class="resultParas">
+        <p class="guesses">Previous guess</p>
+        <p class="resultMessage"></p>
+        <p class="lowOrHi"></p>
+    </div>
+
+    <script>
+        let randomNumber=Math.floor(Math.random()*100)+1;
+
+
+        const guesses=document.querySelector(".quesses")
+        const resultMessage=document.querySelector(".resultMessage")
+        const lowOrHi=document.querySelector(".lowOrHi")
+
+        const guessField=document.querySelector(".guessField")
+        const buttonSubmit=document.querySelector(".guessSubmit")
+
+        const resetGame=document.querySelector(".resetGame")
+        resetGame.setAttribute("style","visibility:hidden")
+
+        let guessCount=1
+        let resetGame2
+        let stringGuesses
+
+        guessSubmit.addEventListener("click",checkGuess)
+        resetGame.addEventListener("click",resetGameFunction)
+
+        function checkGuess()
+        {
+            const value = Number(guessField.value)
+            guessCount++
+            stringGuesses=stringGuesses+" "+value
+            // if(typeof value!=="number")
+            // {
+            //     alert("Te rog introdu un numar! ")
+            // }
+
+            if(guessCount==10)
+            {
+                resultMessage.textContent="Game Over !"
+                resetGame.removeAttribute("style")
+                resetGame2=document.createElement("Button")
+                resetGame2.setAtribute("value","Restart game")
+                gameOver()
+            }
+            else{
+                if(value===randomNumber)
+                {
+                    guesses.textContent=guesses.textContent.concat(guessCount.textContent, value)
+                    resultMessage.textContent="Congrats! You got it right!"
+                    resultMessage.style.backgroundColor="green"
+                    gameOver()
+                }
+                else 
+                {
+                    guesses.textContent=guesses.textContent.concat(guesses.textContent.value)
+                    resultMessage.text="Wrong!"
+                    resultMessage.style.backgroundColor="red"
+                    if(value<randomNumber)
+                    {
+                        lowOrHi.textContent="Your number is to low"
+                    }
+                    else{
+                        lowOrHi.textContent="Your number is to high"
+                    }
+                }
+            }
+            guessField.value=""
+        }
+
+        function resetGameFunction()
+        {
+            guessCount=1
+            stringGuesses=""
+            randomNumber=Math.floor(Math.random()*100)+1
+            resetGame.setAttribute("style","visibility:hiden")
+            guesses.textContent=""
+            lowOrHi.textContent=""
+            resultMessage.textContent=""
+        }
+        function gameOver()
+        {
+            guessSubmit.removeEventListener("click")
+            guessSubmit.setAtribute("disabled")
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,528 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API\\Library.API.csproj": {}
+  },
+  "projects": {
+    "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Aplication\\Library.API.Aplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Aplication\\Library.API.Aplication.csproj",
+        "projectName": "Library.API.Aplication",
+        "projectPath": "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Aplication\\Library.API.Aplication.csproj",
+        "packagesPath": "C:\\Users\\vasil\\.nuget\\packages\\",
+        "outputPath": "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Aplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vasil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Data.Abstraction\\Library.API.Data.Abstraction.csproj": {
+                "projectPath": "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Data.Abstraction\\Library.API.Data.Abstraction.csproj"
+              },
+              "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Data.MongoDB\\Library.API.Data.MongoDB.csproj": {
+                "projectPath": "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Data.MongoDB\\Library.API.Data.MongoDB.csproj"
+              },
+              "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Domain\\Library.API.Domain.csproj": {
+                "projectPath": "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Domain\\Library.API.Domain.csproj"
+              },
+              "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Repositories\\Library.API.Repositories.csproj": {
+                "projectPath": "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Repositories\\Library.API.Repositories.csproj"
+              },
+              "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Tests\\Library.API.Tests.csproj": {
+                "projectPath": "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Tests\\Library.API.Tests.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.2, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Data.Abstraction\\Library.API.Data.Abstraction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Data.Abstraction\\Library.API.Data.Abstraction.csproj",
+        "projectName": "Library.API.Data.Abstraction",
+        "projectPath": "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Data.Abstraction\\Library.API.Data.Abstraction.csproj",
+        "packagesPath": "C:\\Users\\vasil\\.nuget\\packages\\",
+        "outputPath": "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Data.Abstraction\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vasil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Data.MongoDB\\Library.API.Data.MongoDB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Data.MongoDB\\Library.API.Data.MongoDB.csproj",
+        "projectName": "Library.API.Data.MongoDB",
+        "projectPath": "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Data.MongoDB\\Library.API.Data.MongoDB.csproj",
+        "packagesPath": "C:\\Users\\vasil\\.nuget\\packages\\",
+        "outputPath": "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Data.MongoDB\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vasil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Data.Abstraction\\Library.API.Data.Abstraction.csproj": {
+                "projectPath": "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Data.Abstraction\\Library.API.Data.Abstraction.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.20.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Domain\\Library.API.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Domain\\Library.API.Domain.csproj",
+        "projectName": "Library.API.Domain",
+        "projectPath": "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Domain\\Library.API.Domain.csproj",
+        "packagesPath": "C:\\Users\\vasil\\.nuget\\packages\\",
+        "outputPath": "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vasil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Repositories\\Library.API.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Repositories\\Library.API.Repositories.csproj",
+        "projectName": "Library.API.Repositories",
+        "projectPath": "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Repositories\\Library.API.Repositories.csproj",
+        "packagesPath": "C:\\Users\\vasil\\.nuget\\packages\\",
+        "outputPath": "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vasil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Data.Abstraction\\Library.API.Data.Abstraction.csproj": {
+                "projectPath": "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Data.Abstraction\\Library.API.Data.Abstraction.csproj"
+              },
+              "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Data.MongoDB\\Library.API.Data.MongoDB.csproj": {
+                "projectPath": "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Data.MongoDB\\Library.API.Data.MongoDB.csproj"
+              },
+              "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Domain\\Library.API.Domain.csproj": {
+                "projectPath": "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Domain\\Library.API.Domain.csproj"
+              },
+              "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Tests\\Library.API.Tests.csproj": {
+                "projectPath": "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Tests\\Library.API.Tests.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Tests\\Library.API.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Tests\\Library.API.Tests.csproj",
+        "projectName": "Library.API.Tests",
+        "projectPath": "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Tests\\Library.API.Tests.csproj",
+        "packagesPath": "C:\\Users\\vasil\\.nuget\\packages\\",
+        "outputPath": "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vasil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Data.Abstraction\\Library.API.Data.Abstraction.csproj": {
+                "projectPath": "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Data.Abstraction\\Library.API.Data.Abstraction.csproj"
+              },
+              "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Data.MongoDB\\Library.API.Data.MongoDB.csproj": {
+                "projectPath": "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Data.MongoDB\\Library.API.Data.MongoDB.csproj"
+              },
+              "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Domain\\Library.API.Domain.csproj": {
+                "projectPath": "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Domain\\Library.API.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "RavenDB.Database": {
+              "target": "Package",
+              "version": "[3.5.9, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API\\Library.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API\\Library.API.csproj",
+        "projectName": "Library.API",
+        "projectPath": "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API\\Library.API.csproj",
+        "packagesPath": "C:\\Users\\vasil\\.nuget\\packages\\",
+        "outputPath": "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vasil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Aplication\\Library.API.Aplication.csproj": {
+                "projectPath": "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Aplication\\Library.API.Aplication.csproj"
+              },
+              "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Data.Abstraction\\Library.API.Data.Abstraction.csproj": {
+                "projectPath": "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Data.Abstraction\\Library.API.Data.Abstraction.csproj"
+              },
+              "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Data.MongoDB\\Library.API.Data.MongoDB.csproj": {
+                "projectPath": "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Data.MongoDB\\Library.API.Data.MongoDB.csproj"
+              },
+              "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Domain\\Library.API.Domain.csproj": {
+                "projectPath": "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Domain\\Library.API.Domain.csproj"
+              },
+              "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Repositories\\Library.API.Repositories.csproj": {
+                "projectPath": "E:\\Practica DVSE\\WORKSHOP4\\Library.API\\Library.API.Repositories\\Library.API.Repositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.2, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyModel": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Scrutor": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

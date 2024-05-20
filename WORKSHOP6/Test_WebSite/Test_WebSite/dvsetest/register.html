@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>DVSE RO - Inregistrare</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles/layout.css" type="text/css">
+<script type="text/javascript" src="scripts/main.js"></script>
+<!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
+</head>
+<body>
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+      <h1><a href="index.html">DVSE RO</a></h1>
+      <h2>Topmotive test website</h2>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Acasa</a></li>
+        <li><a href="echipa.html">Echipa</a></li>
+        <li><a href="benefits.html">Beneficii</a></li>
+        <li><a href="calculator.html">Calculator</a></li>
+        <li><a href="register.html">Inregistrare</a></li>
+        <li class="last"><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+</div>
+<!-- content -->
+<div class="wrapper row2">
+    <div id="container" class="clear">
+	
+		<div style="width:202px;border:1px solid;">
+			<img src = "img/avatarLogin.png" height="200px" width="200px">
+		</div>
+		
+		<div >
+			<p><b>Va rugam introduceti datele dvs:</b></p>
+			<form action="">
+			 <p></p>
+				<label><b>Alegeti un username</b></label><br>
+				<input type="text" placeholder="Introduceti User-ul" name="nume" required>
+			<p></p>
+				<label><b>Alegeti o parola</b></label><br>
+				<input type="password" placeholder="Introduceti parola" name="pass" required>
+				<p></p>
+				<label><b>Reintroduceti parola</b><label><br>
+				<input type="password" placeholder="Introduceti parola" name="pass" required>
+				<p></p>
+				<label><b>Selectati sexul:</b><br>
+				<input type = "checkbox" name = "sex" value = "masc"> Masculin <br>
+				<input type = "checkbox" name = "sex" value = "fem"> Feminim <br>
+				
+				<div class = "dropdown">
+					<p><b>Va rugam selectati nivelul de studii :</p>
+					<p></p>
+					<select id="studii" onclick = "disable_dropdown()"> 
+						<option>Alege</option> 
+						<option>Scoala Generala </option> 
+						<option>Liceu</option> 
+						<option>Postliceala</option> 
+						<option>Facultate</option> 
+						<option>Doctorat</option>
+					</select>
+				</div><br>
+				
+				<button type="submit">Inregistrare</button>
+				<input type="checkbox" checked="checked">Remember me<br>
+				<button type="button" class="cancelbtn">Remember me</button>
+			  
+			 </form>
+		 </div>
+	</div>
+</div>
+<!-- Footer -->
+<div class="wrapper row3">
+  <footer id="footer" class="clear">
+    <p class="fl_left">Copyright &copy; 2020 - All Rights Reserved - <a href="https">www.dvse.ro</a></p>
+    <p class="fl_right"> </p>
+  </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.5.2" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+    <PackageReference Include="MediatR" Version="12.0.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyModel" Version="7.0.0" />
+    <PackageReference Include="Scrutor" Version="4.2.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Library.API.Aplication\Library.API.Aplication.csproj" />
+    <ProjectReference Include="..\Library.API.Data.Abstraction\Library.API.Data.Abstraction.csproj" />
+    <ProjectReference Include="..\Library.API.Data.MongoDB\Library.API.Data.MongoDB.csproj" />
+    <ProjectReference Include="..\Library.API.Domain\Library.API.Domain.csproj" />
+    <ProjectReference Include="..\Library.API.Repositories\Library.API.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>

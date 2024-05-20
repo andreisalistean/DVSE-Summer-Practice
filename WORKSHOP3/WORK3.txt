@@ -1,0 +1,127 @@
+WORK3
+ db.Authors.deleteOne({"FirstName:"
+
+
+[
+  {
+    $match:
+      /**
+       * query: The query in MQL.
+       */
+      {
+        FirstName: "Chase",
+        LastName: "Conroy",
+      },
+  },
+  {
+    $addFields:
+      /**
+       * newField: The new field name.
+       * expression: The new field expression.
+       */
+      {
+        MiddleName: "Ana1",
+      },
+  },
+  {
+    $addFields:
+      /**
+       * newField: The new field name.
+       * expression: The new field expression.
+       */
+      {
+        FullName: {
+          $concat: [
+            "$FirstName",
+            " ",
+            "$LastName",
+          ],
+        },
+      },
+  },
+]
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+[
+  {
+    $match: {
+      SpokenLanguages: {
+        $exists: true,
+        $type: "array",
+      },
+    },
+  },
+  {
+    $match:
+      /**
+       * query: The query in MQL.
+       */
+      {
+        $expr: {
+          $gte: [
+            {
+              $size: "$SpokenLanguages",
+            },
+            2,
+          ],
+        },
+      },
+  },
+  {
+    $count:
+      /**
+       * Provide the field name for the count.
+       */
+      "Nr",
+  },
+]
+/////////////////////////////////////////////////////////////////////////////////////////
+[
+  {
+    $match:
+      /**
+       * query: The query in MQL.
+       */
+      {
+        Genres: {
+          $all: ["SF", "Humor", "Biography"],
+        },
+      },
+  },
+  {
+    $lookup:
+      /**
+       * from: The target collection.
+       * localField: The local join field.
+       * foreignField: The target join field.
+       * as: The name for the results.
+       * pipeline: Optional pipeline to run on the foreign collection.
+       * let: Optional variables to use in the pipeline field stages.
+       */
+      {
+        from: "Authors",
+        localField: "AuthorId",
+        foreignField: "_id",
+        as: "Authors",
+      },
+  },
+  {
+    $unwind:
+      /**
+       * path: Path to the array field.
+       * includeArrayIndex: Optional name for index.
+       * preserveNullAndEmptyArrays: Optional
+       *   toggle to unwind null and empty values.
+       */
+      {
+        path: "$Authors",
+      },
+  },
+  {
+    $count:
+      /**
+       * Provide the field name for the count.
+       */
+      "nr",
+  },
+]
